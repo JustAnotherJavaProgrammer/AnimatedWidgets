@@ -4,6 +4,40 @@
       <root url="file://$PROJECT_DIR$" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://D:/Program Files/flutter" />
+      <root url="file://D:/Program Files/flutter/dev/benchmarks/macrobenchmarks/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/android_host_app/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/android_host_app_v2_embedding/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/android_semantics_testing/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/android_splash_screens/splash_screen_kitchen_sink/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/android_splash_screens/splash_screen_load_rotate/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/android_splash_screens/splash_screen_trans_rotate/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/channels/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/codegen/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/external_ui/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/flavors/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/image_loading/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/module_host_with_custom_build/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/named_isolates/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/platform_interaction/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/release_smoke_test/android/app/src/androidTest/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/release_smoke_test/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/integration_tests/ui/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/dev/manual_tests/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/catalog/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/flutter_gallery/android/app/src/androidTest/java" />
+      <root url="file://D:/Program Files/flutter/examples/flutter_gallery/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/flutter_view/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/hello_world/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/image_list/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/layers/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/platform_channel/android/app/src/androidTest/java" />
+      <root url="file://D:/Program Files/flutter/examples/platform_channel/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/platform_channel_swift/android/app/src/androidTest/java" />
+      <root url="file://D:/Program Files/flutter/examples/platform_channel_swift/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/platform_view/android/app/src/main/java" />
+      <root url="file://D:/Program Files/flutter/examples/stocks/android/app/src/main/java" />
+    </SOURCES>
   </library>
 </component>
