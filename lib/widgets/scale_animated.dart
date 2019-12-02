@@ -9,6 +9,7 @@ class ScaleAnimatedWidget extends StatefulWidget {
   final Duration duration;
   final Curve curve;
   final Duration delay;
+  final Function(bool) animationFinished;
 
   /// A scale animation using 2-* values
   ///
@@ -28,6 +29,7 @@ class ScaleAnimatedWidget extends StatefulWidget {
     this.curve = Curves.linear,
     this.duration = const Duration(seconds: 2),
     this.enabled = false,
+    this.animationFinished,
     List<double> values = const [0, 1],
   })  : this._values = values,
         assert(values.length > 1);
@@ -110,7 +112,11 @@ class _State extends State<ScaleAnimatedWidget> with TickerProviderStateMixin {
     _animationController = AnimationController(
       vsync: this,
       duration: widget.duration,
-    );
+    )..addStatusListener((status) {
+        if (widget.animationFinished != null) {
+          widget.animationFinished(widget.enabled);
+        }
+      });
 
     _animation = chainTweens(widget.values).animate(
       CurvedAnimation(parent: _animationController, curve: widget.curve),
